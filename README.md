@@ -1,6 +1,8 @@
 # expo-camera `launchScanner` R8 reproducer (Android)
 
-Minimal Expo SDK 58 / expo-camera reproducer for the Android release build bug where
+> **Note:** This reproducer appears to be fixed with expo-camera 58.0.13 and later.
+
+Minimal Expo SDK 58 / expo-camera (< 58.0.13) reproducer for the Android release build bug where
 R8 minification strips the ML Kit classes that `CameraView.launchScanner` needs.
 
 - One screen ([src/app/index.tsx](./src/app/index.tsx)) with a single button.
